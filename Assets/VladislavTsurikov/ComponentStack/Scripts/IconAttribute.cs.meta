@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 96d448fe0da045d47a1f6cb36e9373b8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/ComponentStack/Scripts/IconAttribute.cs
+  uploadId: 552469

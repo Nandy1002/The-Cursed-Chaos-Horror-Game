@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3cef07cb400ee454d8093c863af974e7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/MegaWorld/CommonScripts/ScriptsEditor/Templates/BigTrees.cs
+  uploadId: 552469

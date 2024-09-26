@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 26e54e5a728a9234ab24fcf1460ed8a2
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196526
+  packageName: Starter Assets - ThirdPerson | Updates in new CharacterController
+    package
+  packageVersion: 1.1.5
+  assetPath: Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs
+  uploadId: 691128
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - LandingAudioClip: {fileID: 8300000, guid: ff697d3070687ce4583faa0561a145a2, type: 3}
+  - CinemachineCameraTarget: {instanceID: 0}
+  - followCameraRotation: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

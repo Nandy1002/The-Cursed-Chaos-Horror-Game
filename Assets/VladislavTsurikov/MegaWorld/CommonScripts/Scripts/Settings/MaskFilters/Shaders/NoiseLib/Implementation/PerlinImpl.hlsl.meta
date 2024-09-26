@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fb468d89faaa7d34bb94800c3aca6791
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/MegaWorld/CommonScripts/Scripts/Settings/MaskFilters/Shaders/NoiseLib/Implementation/PerlinImpl.hlsl
+  uploadId: 552469

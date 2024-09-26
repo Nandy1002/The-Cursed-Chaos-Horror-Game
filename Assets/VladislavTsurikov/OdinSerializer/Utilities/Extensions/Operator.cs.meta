@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d4ba2bf959297990a1642b1a27671618
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/OdinSerializer/Utilities/Extensions/Operator.cs
+  uploadId: 552469

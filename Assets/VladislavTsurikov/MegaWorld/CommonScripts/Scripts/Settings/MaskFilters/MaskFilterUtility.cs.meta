@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: fc0f0d8d13cbd9f4d946f766a4c6c57b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/MegaWorld/CommonScripts/Scripts/Settings/MaskFilters/MaskFilterUtility.cs
+  uploadId: 552469

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7180ef2a5ca2ca60fb9d1fe4c6853c81
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/OdinSerializer/Core/FormatterLocators/TypeFormatterLocator.cs
+  uploadId: 552469

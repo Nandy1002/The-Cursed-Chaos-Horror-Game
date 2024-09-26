@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9de7e7d71f227e5193b4e80fe94a92bb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/OdinSerializer/Core/Misc/RegisterFormatterLocatorAttribute.cs
+  uploadId: 552469

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 56732b4c166bdfb46b636c37d7b86814
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/MegaWorld/CommonScripts/ScriptsEditor/Settings/LayerSettingsEditor.cs
+  uploadId: 552469

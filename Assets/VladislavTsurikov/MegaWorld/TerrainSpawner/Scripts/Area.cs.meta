@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ab6ecad5e15315e4abd6baaab11e976e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/MegaWorld/TerrainSpawner/Scripts/Area.cs
+  uploadId: 552469

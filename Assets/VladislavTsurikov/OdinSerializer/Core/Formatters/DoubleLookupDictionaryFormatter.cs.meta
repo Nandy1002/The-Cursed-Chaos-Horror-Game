@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: fa2e489063002ed5d67e1526e8ffff4c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/OdinSerializer/Core/Formatters/DoubleLookupDictionaryFormatter.cs
+  uploadId: 552469

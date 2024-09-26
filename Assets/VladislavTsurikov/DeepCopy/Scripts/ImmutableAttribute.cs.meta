@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e0431d37b7e254343be6c10549d9e34d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/DeepCopy/Scripts/ImmutableAttribute.cs
+  uploadId: 552469

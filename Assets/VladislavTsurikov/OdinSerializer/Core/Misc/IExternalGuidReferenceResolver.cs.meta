@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 92b9179703f5a82500b3c8f78f28aa74
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/OdinSerializer/Core/Misc/IExternalGuidReferenceResolver.cs
+  uploadId: 552469

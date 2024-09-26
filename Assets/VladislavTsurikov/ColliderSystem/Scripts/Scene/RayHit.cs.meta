@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 98db0673dc6abb74d892b5baff099b59
+timeCreated: 1532881442
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/ColliderSystem/Scripts/Scene/RayHit.cs
+  uploadId: 552469

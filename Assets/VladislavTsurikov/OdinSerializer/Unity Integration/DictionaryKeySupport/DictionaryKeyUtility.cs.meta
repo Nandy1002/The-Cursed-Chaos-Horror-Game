@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4c9446302f47a27e476da13b4589d499
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/OdinSerializer/Unity Integration/DictionaryKeySupport/DictionaryKeyUtility.cs
+  uploadId: 552469

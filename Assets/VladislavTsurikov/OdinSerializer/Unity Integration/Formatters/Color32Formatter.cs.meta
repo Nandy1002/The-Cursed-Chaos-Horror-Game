@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2118f8ef5fdae4368902de5a66ac223b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/OdinSerializer/Unity Integration/Formatters/Color32Formatter.cs
+  uploadId: 552469

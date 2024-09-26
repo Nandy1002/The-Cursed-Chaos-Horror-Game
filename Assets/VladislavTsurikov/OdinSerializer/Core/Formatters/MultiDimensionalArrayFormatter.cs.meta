@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0ba7dd94606f01e38c09793f4eada1ac
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/OdinSerializer/Core/Formatters/MultiDimensionalArrayFormatter.cs
+  uploadId: 552469

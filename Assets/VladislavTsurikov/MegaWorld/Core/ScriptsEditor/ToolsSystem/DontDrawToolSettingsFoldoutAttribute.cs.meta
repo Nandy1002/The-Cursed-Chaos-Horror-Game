@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: a24ac61d44794da7aec9db659248c288
+timeCreated: 1665246532
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/MegaWorld/Core/ScriptsEditor/ToolsSystem/DontDrawToolSettingsFoldoutAttribute.cs
+  uploadId: 552469

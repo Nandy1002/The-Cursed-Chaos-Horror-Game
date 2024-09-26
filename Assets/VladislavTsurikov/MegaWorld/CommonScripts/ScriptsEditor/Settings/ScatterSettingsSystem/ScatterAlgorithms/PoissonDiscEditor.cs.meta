@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 955eaa2f914043a0b125e7f9b02d4553
+timeCreated: 1663601916
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/MegaWorld/CommonScripts/ScriptsEditor/Settings/ScatterSettingsSystem/ScatterAlgorithms/PoissonDiscEditor.cs
+  uploadId: 552469

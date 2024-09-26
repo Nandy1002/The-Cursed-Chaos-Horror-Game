@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b5221c8f4ef32c4d39b8aed4e58598f4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/OdinSerializer/Core/DataReaderWriters/SerializationNodes/SerializationNodeDataReader.cs
+  uploadId: 552469

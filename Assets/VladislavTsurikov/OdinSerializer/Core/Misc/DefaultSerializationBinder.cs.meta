@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9f672098fa96ab9a505e1ea738df1041
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/OdinSerializer/Core/Misc/DefaultSerializationBinder.cs
+  uploadId: 552469

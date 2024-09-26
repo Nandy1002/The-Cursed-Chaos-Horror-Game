@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a8579fd048869a347acd29d97c10b112
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/ComponentStack/ScriptsEditor/SettingsEditorAttribute.cs
+  uploadId: 552469

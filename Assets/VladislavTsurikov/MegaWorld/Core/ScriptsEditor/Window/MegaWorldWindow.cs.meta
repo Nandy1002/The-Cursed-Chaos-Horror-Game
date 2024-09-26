@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c4b3b9aaf9f19244bbd9b9b361226342
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/MegaWorld/Core/ScriptsEditor/Window/MegaWorldWindow.cs
+  uploadId: 552469

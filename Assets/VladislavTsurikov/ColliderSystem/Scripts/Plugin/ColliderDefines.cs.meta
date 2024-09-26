@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3a824c9c951f6294c8530f8a3b600fec
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/ColliderSystem/Scripts/Plugin/ColliderDefines.cs
+  uploadId: 552469

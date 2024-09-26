@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 181b4f79e7400aea3db45c6b9e35aece
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/OdinSerializer/Core/Misc/IAskIfCanFormatTypes.cs
+  uploadId: 552469
