@@ -1,28 +1,11 @@
 fileFormatVersion: 2
 guid: f99126b2de167a44f84adc255bb688c5
-AssetOrigin:
-  serializedVersion: 1
-  productId: 258600
-  packageName: Office Pack - Free
-  packageVersion: 1.0.1
-  assetPath: Assets/nappin/Office Props Softpack/Models/(Msh)BookOpen.fbx
-  uploadId: 694065
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 21100
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: (Mat)GradientGrey
-    second: {fileID: 2100000, guid: 6fd6cef3d0a4a4bb6baa4db84712c3ad, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: (Mat)GradientRed
-    second: {fileID: 2100000, guid: 6477b24b7c27848edb6bd814256d49bd, type: 2}
+  externalObjects: {}
   materials:
-    materialImportMode: 2
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -31,8 +14,9 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    removeConstantScaleCurves: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -55,12 +39,10 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
-    importPhysicalCameras: 1
     importVisibility: 0
     importBlendShapes: 0
     importCameras: 0
     importLights: 0
-    nodeNameCollisionStrategy: 0
     fileIdsGeneration: 2
     swapUVChannels: 1
     generateSecondaryUV: 0
@@ -72,7 +54,6 @@ ModelImporter:
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
-    optimizeBones: 1
     meshOptimizationFlags: 0
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -83,7 +64,6 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -116,9 +96,14 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  importBlendShapeDeformPercent: 0
-  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 258600
+  packageName: Office Pack - Free
+  packageVersion: 1.0.1
+  assetPath: Assets/Office Pack/Office Props Softpack/Models/(Msh)BookOpen.fbx
+  uploadId: 694065
