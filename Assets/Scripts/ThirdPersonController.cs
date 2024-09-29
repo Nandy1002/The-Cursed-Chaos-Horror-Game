@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
@@ -100,6 +101,12 @@ namespace StarterAssets
         private int _animIDFreeFall;
         private int _animIDMotionSpeed;
 
+
+        // my custom events and variables
+
+        public event EventHandler OnPlayerInteraction;
+
+
 #if ENABLE_INPUT_SYSTEM 
         private PlayerInput _playerInput;
 #endif
@@ -132,6 +139,8 @@ namespace StarterAssets
             {
                 _mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
             }
+
+
         }
 
         private void Start()
@@ -162,6 +171,15 @@ namespace StarterAssets
             JumpAndGravity();
             GroundedCheck();
             Move();
+            Interaction();
+        }
+
+        private void Interaction()
+        {
+            // if (_input.interaction)
+            // {
+            //     OnPlayerInteraction?.Invoke(this, EventArgs.Empty);
+            // }
         }
 
         private void LateUpdate()
@@ -170,12 +188,14 @@ namespace StarterAssets
         }
 
         private void RotationPlayerByCamera(){
+            //rotate the player by camera rotation for better first person experience
             if(followCameraRotation != null){
                 transform.rotation = Quaternion.Euler(0.0f, followCameraRotation.transform.rotation.eulerAngles.y, 0.0f);
             }
         }
         private void AssignAnimationIDs()
         {
+            // for assigning the animation ID
             _animIDSpeed = Animator.StringToHash("Speed");
             _animIDGrounded = Animator.StringToHash("Grounded");
             _animIDJump = Animator.StringToHash("Jump");
@@ -292,6 +312,7 @@ namespace StarterAssets
 
         private void JumpAndGravity()
         {
+            // if player is standing on ground
             if (Grounded)
             {
                 // reset the fall timeout timer
@@ -382,11 +403,12 @@ namespace StarterAssets
 
         private void OnFootstep(AnimationEvent animationEvent)
         {
+            //when player is walking or running playing footstep sound
             if (animationEvent.animatorClipInfo.weight > 0.5f)
             {
                 if (FootstepAudioClips.Length > 0)
                 {
-                    var index = Random.Range(0, FootstepAudioClips.Length);
+                    var index = UnityEngine.Random.Range(0, FootstepAudioClips.Length);
                     AudioSource.PlayClipAtPoint(FootstepAudioClips[index], transform.TransformPoint(_controller.center), FootstepAudioVolume);
                 }
             }
@@ -394,8 +416,10 @@ namespace StarterAssets
 
         private void OnLand(AnimationEvent animationEvent)
         {
+            //when player is landing from inAir state to grounded state
             if (animationEvent.animatorClipInfo.weight > 0.5f)
             {
+                //play landing sound
                 AudioSource.PlayClipAtPoint(LandingAudioClip, transform.TransformPoint(_controller.center), FootstepAudioVolume);
             }
         }
