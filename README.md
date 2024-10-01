@@ -1,6 +1,11 @@
 # The Cursed Chaos
 
 *The Cursed Chaos* is a first-person horror game where you take on the role of a bored software engineer breaking free from the mundane routine of his 9-to-5 life. What starts as a relaxing getaway to the mysterious mountain forest with friends quickly spirals into a terrifying descent into chaos, danger, and supernatural forces. Can you survive the curse that lurks in the shadows?
+
+## UPDATE
+- This is my first Indie Game Project which I am going to publish on itch.io
+- This game is still in initial stage of developement, will update when further development will be done.
+
 <!--
 ## Table of Contents
 
