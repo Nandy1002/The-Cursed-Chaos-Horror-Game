@@ -40,6 +40,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6516400648005048971}
     m_Modifications:
+    - target: {fileID: -9185158136474559860, guid: d6981f8eeb71740be9d7f3df905ef3c3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d54ade4c14a44601b7c587c2d6c4c6b, type: 2}
+    - target: {fileID: -8770297015027893866, guid: d6981f8eeb71740be9d7f3df905ef3c3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 45a5eb4d5e8104f49b31c6294909eeca, type: 2}
+    - target: {fileID: -8770297015027893866, guid: d6981f8eeb71740be9d7f3df905ef3c3, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 45a5eb4d5e8104f49b31c6294909eeca, type: 2}
     - target: {fileID: -8679921383154817045, guid: d6981f8eeb71740be9d7f3df905ef3c3, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -96,14 +108,34 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7933719363956526580, guid: d6981f8eeb71740be9d7f3df905ef3c3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d54ade4c14a44601b7c587c2d6c4c6b, type: 2}
+    - target: {fileID: -7933719363956526580, guid: d6981f8eeb71740be9d7f3df905ef3c3, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3bc888af11d36439e94f26f1460e9e1d, type: 2}
+    - target: {fileID: -7653601683467808565, guid: d6981f8eeb71740be9d7f3df905ef3c3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d54ade4c14a44601b7c587c2d6c4c6b, type: 2}
     - target: {fileID: -3617937677961014003, guid: d6981f8eeb71740be9d7f3df905ef3c3, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2135948772399474176, guid: d6981f8eeb71740be9d7f3df905ef3c3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d54ade4c14a44601b7c587c2d6c4c6b, type: 2}
     - target: {fileID: 919132149155446097, guid: d6981f8eeb71740be9d7f3df905ef3c3, type: 3}
       propertyPath: m_Name
       value: diining_furnitures_29__vray
       objectReference: {fileID: 0}
+    - target: {fileID: 1974506630150089659, guid: d6981f8eeb71740be9d7f3df905ef3c3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d54ade4c14a44601b7c587c2d6c4c6b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
