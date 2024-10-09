@@ -29,7 +29,12 @@ public class PlayerInteractions : MonoBehaviour
         if(hitSomething){
             if(hit.transform.TryGetComponent(out Interactable interactable)){
                 Debug.Log("Can be Interacted with");
-                OnInteracting(interactable);
+                Door door = interactable as Door;
+                if(door != null){
+                    OnInteracting(door);
+                    door.CanInteractVisual();
+                }
+                
             }
         }
         //view the raycast
@@ -38,6 +43,10 @@ public class PlayerInteractions : MonoBehaviour
     private void OnInteracting(Interactable interactable){
         if(inputs.interact){
             Debug.Log("Interacted with " + interactable.gameObject.name);
+            Door door = interactable as Door;
+            if(door != null){ 
+                door.OnInteract();
+            }
             inputs.interact = false;
         }
     }
