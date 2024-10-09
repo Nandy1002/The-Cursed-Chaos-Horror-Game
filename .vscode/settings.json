@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "THE CURSED CHAOS - Horror Game.sln"
+    "dotnet.defaultSolution": "THE CURSED CHAOS - Horror Game.sln",
+    "dotnet.preferCSharpExtension": true
 }

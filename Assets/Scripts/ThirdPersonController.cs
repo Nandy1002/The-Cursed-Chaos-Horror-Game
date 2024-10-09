@@ -104,7 +104,7 @@ namespace StarterAssets
 
         // my custom events and variables
 
-        public event EventHandler OnPlayerInteraction;
+        //public event EventHandler OnPlayerInteraction;
 
 
 #if ENABLE_INPUT_SYSTEM 
@@ -171,16 +171,16 @@ namespace StarterAssets
             JumpAndGravity();
             GroundedCheck();
             Move();
-            Interaction();
+            
         }
 
-        private void Interaction()
-        {
-            // if (_input.interaction)
-            // {
-            //     OnPlayerInteraction?.Invoke(this, EventArgs.Empty);
-            // }
-        }
+        // private void Interaction()
+        // {
+        //     if (_input.interact)
+        //     {
+        //         OnPlayerInteraction?.Invoke(this, EventArgs.Empty);
+        //     }
+        // }
 
         private void LateUpdate()
         {
