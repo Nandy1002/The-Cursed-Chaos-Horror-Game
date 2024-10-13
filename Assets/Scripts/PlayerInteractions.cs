@@ -35,6 +35,11 @@ public class PlayerInteractions : MonoBehaviour
                     OnInteracting(door);
                     door.CanInteractVisual();
                 }
+                VendingMachine vendingMachine = interactable as VendingMachine;
+                if(vendingMachine != null){
+                    OnInteracting(vendingMachine);
+                    vendingMachine.CanInteractVisual();
+                }
                 
             }
         }
@@ -47,6 +52,10 @@ public class PlayerInteractions : MonoBehaviour
             Door door = interactable as Door;
             if(door != null){ 
                 door.OnInteract();
+            }
+            VendingMachine vendingMachine = interactable as VendingMachine;
+            if(vendingMachine != null){
+                vendingMachine.OnInteract();
             }
             inputs.interact = false;
         }
