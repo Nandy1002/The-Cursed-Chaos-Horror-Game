@@ -21,10 +21,11 @@ public class PlayerInteractions : MonoBehaviour
     private void Update()
     {
         CanInteract();
+        Debug.DrawRay(transform.position, Vector3.forward * 2f, Color.red);
     }
     private void CanInteract(){
         RaycastHit hit;
-        Vector3 direction = transform.TransformDirection(Vector3.forward);
+        Vector3 direction = Quaternion.Euler(0, transform.rotation.eulerAngles.y, 0) * Vector3.forward;
         bool hitSomething = Physics.Raycast(transform.position, direction, out hit, 2f);
         if(hitSomething){
             if(hit.transform.TryGetComponent(out Interactable interactable)){
@@ -41,7 +42,7 @@ public class PlayerInteractions : MonoBehaviour
         //Debug.DrawRay(transform.position, direction * 1f, Color.red);
     }
     private void OnInteracting(Interactable interactable){
-        if(inputs.interact){
+        if(inputs.interact && !interactable.GetAfterInteract()){
             Debug.Log("Interacted with " + interactable.gameObject.name);
             Door door = interactable as Door;
             if(door != null){ 
