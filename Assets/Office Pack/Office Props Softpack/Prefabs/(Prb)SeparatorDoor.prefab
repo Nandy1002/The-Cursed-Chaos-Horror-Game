@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 474650411790279499, guid: a6162447fe7e34cef818cad8f90480e5, type: 3}
+      propertyPath: timeDelay
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2394477407674221257, guid: a6162447fe7e34cef818cad8f90480e5, type: 3}
       propertyPath: m_Name
       value: (Prb)SeparatorDoor

@@ -1,4 +1,5 @@
 using StarterAssets;
+using TMPro;
 using UnityEngine;
 
 public class PlayerInteractions : MonoBehaviour
@@ -6,6 +7,7 @@ public class PlayerInteractions : MonoBehaviour
     private StarterAssetsInputs inputs;
     public PlayerInteractions instance;
     private CapsuleCollider interactionCollider; 
+    [SerializeField] protected TextMeshProUGUI interactInstructions;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Awake()
     {
@@ -31,17 +33,18 @@ public class PlayerInteractions : MonoBehaviour
             if(hit.transform.TryGetComponent(out Interactable interactable)){
                 Debug.Log("Can be Interacted with");
                 Door door = interactable as Door;
+                VendingMachine vendingMachine = interactable as VendingMachine;
                 if(door != null){
                     OnInteracting(door);
                     door.CanInteractVisual();
                 }
-                VendingMachine vendingMachine = interactable as VendingMachine;
-                if(vendingMachine != null){
+                else if(vendingMachine != null){
                     OnInteracting(vendingMachine);
                     vendingMachine.CanInteractVisual();
-                }
-                
+                }   
             }
+        }else{
+                interactInstructions.gameObject.SetActive(false);
         }
         //view the raycast
         //Debug.DrawRay(transform.position, direction * 1f, Color.red);

@@ -19,12 +19,12 @@ public class Door : Interactable
                 animator.SetBool(isOpened,false);
                 animator.SetTrigger(isClosed);
                 isDoorOpen = false;
-                Debug.Log("Door opened");        
+                //Debug.Log("Door opened");        
         }else{
                 animator.SetBool(isClosed,false);
                 animator.SetTrigger(isOpened);
                 isDoorOpen = true;
-                Debug.Log("Door closed");
+                //Debug.Log("Door closed");
         }
     }
     public new void CanInteractVisual()
