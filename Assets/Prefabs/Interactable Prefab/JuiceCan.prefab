@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2472686999784666582}
   - component: {fileID: 908279880918482665}
   - component: {fileID: 649941464028926661}
+  - component: {fileID: 4826674344870903232}
   m_Layer: 0
   m_Name: JuiceCan
   m_TagString: Untagged
@@ -49,6 +50,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemSO: {fileID: 11400000, guid: 6f768cb0502f44e4d9721f3206d246d9, type: 2}
+  playerAlreadyHasItem: 0
+  pickUpInstructions: {fileID: 4973922490096352511, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
 --- !u!114 &908279880918482665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,6 +64,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2d4bf4612cce4757906e81bca5abc08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementForce: 5
 --- !u!54 &649941464028926661
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -88,6 +92,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &4826674344870903232
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3551177588180875406}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.15
+  m_Height: 0.4
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.08, z: 0}
 --- !u!1001 &3444088039630496347
 PrefabInstance:
   m_ObjectHideFlags: 0

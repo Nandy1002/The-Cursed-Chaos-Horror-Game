@@ -1,14 +1,25 @@
+using System;
 using StarterAssets;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class PlayerInteractions : MonoBehaviour
+public class PlayerInteractions : MonoBehaviour,IPickUpItemParent
 {
+    // Private Variables
     private StarterAssetsInputs inputs;
     public PlayerInteractions instance;
     private CapsuleCollider interactionCollider; 
-    [SerializeField] protected TextMeshProUGUI interactInstructions;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    //  serialized variables
+    [SerializeField] private Transform pickUpItemHoldPoint;
+    [SerializeField] private PickUpItem pickUpItem;
+    [SerializeField] private TextMeshProUGUI interactInstructions;
+    
+    // Events
+    public event EventHandler OnPickUpItemGrabbed;
+
+    // Methods
     private void Awake()
     {
         if(instance != null){
@@ -23,7 +34,8 @@ public class PlayerInteractions : MonoBehaviour
     private void Update()
     {
         CanInteract();
-        Debug.DrawRay(transform.position, Vector3.forward * 2f, Color.red);
+        CanPickUp();
+        //Debug.DrawRay(transform.position, Vector3.forward * 2f, Color.red);
     }
     private void CanInteract(){
         RaycastHit hit;
@@ -49,6 +61,19 @@ public class PlayerInteractions : MonoBehaviour
         //view the raycast
         //Debug.DrawRay(transform.position, direction * 1f, Color.red);
     }
+    private void CanPickUp(){
+        RaycastHit hit;
+        Vector3 direction = Quaternion.Euler(0, transform.rotation.eulerAngles.y, 0) * Vector3.forward;
+        bool hitSomething = Physics.Raycast(transform.position, direction, out hit, 2f);
+        if(hitSomething){
+            if(hit.transform.TryGetComponent(out PickUpItem pickUpItem)){
+                Debug.Log("Can be Picked Up");
+                OnPickingUp(pickUpItem);
+                pickUpItem.CanPickUpVisual();
+                
+            }
+        }
+    }
     private void OnInteracting(Interactable interactable){
         if(inputs.interact && !interactable.GetAfterInteract()){
             Debug.Log("Interacted with " + interactable.gameObject.name);
@@ -63,6 +88,66 @@ public class PlayerInteractions : MonoBehaviour
             inputs.interact = false;
         }
     }
+    private void OnPickingUp(PickUpItem pickUpItem){
+        if(inputs.pickUp && !pickUpItem.GetPlayerAlreadyHasItem()){
+            Debug.Log("Pickup Button Working");
+            pickUpItem.OnPickUpByPlayer(this,pickUpItem);
+            Debug.Log("Picked Up " + pickUpItem.name);
+            inputs.pickUp = false;
+        }
+        if(inputs.pickUp && pickUpItem.GetPlayerAlreadyHasItem()){
+            Debug.Log("Drop Button Working");
+            pickUpItem.OnDrop();
+            inputs.pickUp = false;
+        }
+        if(inputs.click && pickUpItem.GetPlayerAlreadyHasItem()){
+            Debug.Log("Use Button Working");
+            pickUpItem.OnUse();
+            inputs.click = false;
+        }
+    }
 
-    
+    public Transform GetPickUpItemFollowTransform()
+    {
+        return pickUpItemHoldPoint;
+    }
+
+    public void SetPickUpItem(PickUpItem pickUpItem)
+    {
+        this.pickUpItem = pickUpItem;
+        //freeze the total position of pickup item ridigbody constraints
+        pickUpItem.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
+        // pickup the prefab also with the help of pickupitem
+        pickUpItem.transform.SetParent(pickUpItemHoldPoint);
+        pickUpItem.transform.localPosition = Vector3.zero;
+        pickUpItem.transform.localRotation = Quaternion.identity;
+
+        
+        
+        if(pickUpItem != null){
+            OnPickUpItemGrabbed?.Invoke(this, EventArgs.Empty);
+        }
+    }
+
+    public PickUpItem GetPickUpItem()
+    {
+        return pickUpItem;
+    }
+
+    public bool HasPickUpItem()
+    {
+        return pickUpItem != null;
+    }
+
+    public void RemovePickUpItem()
+    {
+        if(pickUpItem == null){
+            return;
+        }else{
+            pickUpItem.transform.SetParent(null);
+            pickUpItem.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+            pickUpItem.GetComponent<Rigidbody>().AddForce(transform.forward * 2f, ForceMode.Impulse);
+            pickUpItem = null;
+        }
+    }
 }

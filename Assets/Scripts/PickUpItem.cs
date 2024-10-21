@@ -1,31 +1,77 @@
+using StarterAssets;
+using TMPro;
 using UnityEngine;
 
 public class PickUpItem : MonoBehaviour
 {
     [SerializeField] protected PickUpItemSO itemSO;
-    private IPickUpItemParent pickUpItemParent;   
-    protected void OnPickUpByPlayer(IPickUpItemParent pickUpItem){
+    [SerializeField] private TextMeshProUGUI pickUpInstructions;
+    [SerializeField] protected int timesOfUse;
+    [SerializeField] protected bool playerAlreadyHasItem;
+    [SerializeField] protected bool canMultiPick;
+    private IPickUpItemParent pickUpItemParent;
+    private void Start(){
+        pickUpInstructions.gameObject.SetActive(false);
+        playerAlreadyHasItem = false;
+        //find the ui element in the hierarchy
+        Transform canvas = GameObject.Find("Canvas").transform;
+        if(canvas == null){
+            Debug.LogError("Canvas not found");
+        }else{
+            pickUpInstructions = canvas.GetChild(0).GetComponent<TextMeshProUGUI>();
+        }
+    }
+
+    public void OnPickUpByPlayer(IPickUpItemParent parent,PickUpItem pickUpItem){
         if(pickUpItemParent != null){
             pickUpItemParent.RemovePickUpItem();
         }
-        pickUpItemParent = pickUpItem;
-        if(pickUpItem.HasPickUpItem()){
+        pickUpItemParent = parent;
+        if(parent.HasPickUpItem()){
             Debug.LogError("PickUpItemParent already has a PickUpItem");
         }
-        pickUpItemParent.SetPickUpItem(this);
-        transform.position = pickUpItem.GetPickUpItemFollowTransform().position;
+        pickUpItemParent.SetPickUpItem(pickUpItem);
+        
+        transform.position = parent.GetPickUpItemFollowTransform().position;
         transform.localPosition = Vector3.zero;
+        playerAlreadyHasItem = true;
     }
+    public IPickUpItemParent GetPickUpItemParent(){
+        return pickUpItemParent;
+    }
+    // public static PickUpItem SpwanPickUpItem(PickUpItemSO itemSO, IPickUpItemParent parent){
+    //     GameObject pickUpItemObject = Instantiate(itemSO.itemPrefab);
+    //     Transform pickUpItemTransform = pickUpItemObject.transform;
+    //     PickUpItem pickUpItem = pickUpItemTransform.GetComponent<PickUpItem>();
+    //     pickUpItem.OnPickUpByPlayer(parent);
+    //     return pickUpItem;
+    // }
     protected void AddToInventory(){
 
     }
-    protected void RemoveFromWorld(){
-
+    public void OnUse(){
+        if(playerAlreadyHasItem && timesOfUse > 0){
+                Debug.Log("Using Item");
+                timesOfUse--;
+        }
+        
     }
-    protected void OnUse(){
-
+    public void OnDrop(){
+        if(playerAlreadyHasItem){
+            Debug.Log("Dropping Item");
+            pickUpItemParent.RemovePickUpItem();
+            playerAlreadyHasItem = false;
+        }
     }
-    protected void OnDrop(){
-
+    public void CanPickUpVisual(){
+        if(!playerAlreadyHasItem){
+            pickUpInstructions.text = "Press [E] to pick up";
+            pickUpInstructions.gameObject.SetActive(true);
+        }else{
+            pickUpInstructions.gameObject.SetActive(false);
+        }
+    }
+    public bool GetPlayerAlreadyHasItem(){
+        return playerAlreadyHasItem;
     }
 }

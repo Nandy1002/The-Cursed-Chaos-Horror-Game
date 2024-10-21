@@ -23,7 +23,7 @@ public class Interactable : MonoBehaviour
     }
     protected void CanInteractVisual(){
         if(!afterInteract){
-
+            interactInstructions.text = "Press [F] to interact";
             interactInstructions.gameObject.SetActive(true);
         }else{
             interactInstructions.gameObject.SetActive(false);

@@ -14,6 +14,8 @@ namespace StarterAssets
 		public bool jump;
 		public bool sprint;
 		public bool interact;
+		public bool pickUp;
+		public bool click;
 
 		[Header("Movement Settings")]
 		public bool analogMovement;
@@ -49,13 +51,30 @@ namespace StarterAssets
 		{
 			InteractInput(value.isPressed);
 		}
-
+		public void OnPickUp(InputValue value)
+		{
+			PickUpInput(value.isPressed);
+		}
+		public void OnClick(InputValue value)
+		{
+			ClickInput(value.isPressed);
+		}
 		
 #endif
 
+		public void ClickInput(bool newClickState)
+		{
+			click = newClickState;
+			// Implement the logic for interact input here
+		}
 		public void InteractInput(bool newInteractState)
 		{
 			interact = newInteractState;
+			// Implement the logic for interact input here
+		}
+		public void PickUpInput(bool newPickUpState)
+		{
+			pickUp = newPickUpState;
 			// Implement the logic for interact input here
 		}
 		public void MoveInput(Vector2 newMoveDirection)
