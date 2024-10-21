@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.readyplayerme.core": "https://github.com/readyplayerme/rpm-unity-sdk-core.git",
     "com.unity.ai.navigation": "2.0.4",
     "com.unity.animation.rigging": "1.3.0",
     "com.unity.burst": "1.8.18",
