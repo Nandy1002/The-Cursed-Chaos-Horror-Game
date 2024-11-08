@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 019ca0efae6272c4a993786c456075be
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 3517
+  packageName: Snack Machines
+  packageVersion: 2.0
+  assetPath: Assets/Snack_machines/example_sceneSettings.lighting
+  uploadId: 603701

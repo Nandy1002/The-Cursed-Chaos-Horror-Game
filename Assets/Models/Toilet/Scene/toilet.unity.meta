@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 412f22cdb16a26643ac1e0900aabe013
+timeCreated: 1558603477
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148108
+  packageName: Toilet(PBR)
+  packageVersion: 1.0
+  assetPath: Assets/Toilet/Scene/toilet.unity
+  uploadId: 315022

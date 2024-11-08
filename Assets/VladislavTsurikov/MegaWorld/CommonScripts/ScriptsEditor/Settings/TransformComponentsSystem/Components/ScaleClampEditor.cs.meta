@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 159c049c514044afbe1ce03105b1aabb
+timeCreated: 1663409744
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/MegaWorld/CommonScripts/ScriptsEditor/Settings/TransformComponentsSystem/Components/ScaleClampEditor.cs
+  uploadId: 552469

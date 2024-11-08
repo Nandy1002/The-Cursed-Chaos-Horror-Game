@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 961ac1b3aa5f65ad9aa32075d21ccd5b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/OdinSerializer/Unity Integration/SerializedUnityObjects/IOverridesSerializationPolicy.cs
+  uploadId: 552469

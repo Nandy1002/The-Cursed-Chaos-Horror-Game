@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f1065a4393764b746992baf873d28bcd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/MegaWorld/CommonScripts/ScriptsEditor/CallDelegate/CallPhysicsSimulationDelegate.cs
+  uploadId: 552469

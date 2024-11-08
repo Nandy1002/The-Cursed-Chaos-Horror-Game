@@ -1,0 +1,4262 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!4 &7013602 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7214089047448196710, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &16327012 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2062206876215791314, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &21279772 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8151763130432147458, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &22226669
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2382810566493446626, guid: 7b846d8f536f007498c941069487ce81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.7614617
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382810566493446626, guid: 7b846d8f536f007498c941069487ce81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.250351
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382810566493446626, guid: 7b846d8f536f007498c941069487ce81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.2821722
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382810566493446626, guid: 7b846d8f536f007498c941069487ce81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382810566493446626, guid: 7b846d8f536f007498c941069487ce81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382810566493446626, guid: 7b846d8f536f007498c941069487ce81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382810566493446626, guid: 7b846d8f536f007498c941069487ce81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382810566493446626, guid: 7b846d8f536f007498c941069487ce81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382810566493446626, guid: 7b846d8f536f007498c941069487ce81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382810566493446626, guid: 7b846d8f536f007498c941069487ce81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3051928965768018776, guid: 7b846d8f536f007498c941069487ce81, type: 3}
+      propertyPath: m_Name
+      value: Box_350x250x200_Prefab
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b846d8f536f007498c941069487ce81, type: 3}
+--- !u!4 &50093645 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6626337398819971105, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &107053280 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4885212496911114539, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &108320239 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5655179944967790165, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &134076810 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2271661810069817479, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &147017186 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5779297520900514615, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &147017194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147017186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8418b0b9634b1892b0268dd9c2743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boneShape: 1
+  drawBones: 1
+  drawTripods: 0
+  boneSize: 1
+  tripodSize: 1
+  boneColor: {r: 0, g: 0, b: 1, a: 0.5}
+  m_Transforms:
+  - {fileID: 1702308797}
+  - {fileID: 2007179624}
+  - {fileID: 1094426595}
+  - {fileID: 714089894}
+  - {fileID: 1009072888}
+  - {fileID: 409313677}
+  - {fileID: 1764049380}
+  - {fileID: 1511784738}
+  - {fileID: 1612085614}
+  - {fileID: 822104401}
+  - {fileID: 667649631}
+  - {fileID: 376903630}
+  - {fileID: 1345901422}
+  - {fileID: 21279772}
+  - {fileID: 1713176632}
+  - {fileID: 720935729}
+  - {fileID: 320115303}
+  - {fileID: 1415619632}
+  - {fileID: 272424428}
+  - {fileID: 955217153}
+  - {fileID: 2072385995}
+  - {fileID: 1101602264}
+  - {fileID: 304595952}
+  - {fileID: 1420973937}
+  - {fileID: 989690373}
+  - {fileID: 231562874}
+  - {fileID: 1549654018}
+  - {fileID: 363998003}
+  - {fileID: 1446384514}
+  - {fileID: 498401717}
+  - {fileID: 343662922}
+  - {fileID: 153489003}
+  - {fileID: 231296859}
+  - {fileID: 1803940785}
+  - {fileID: 1577640293}
+  - {fileID: 1041269787}
+  - {fileID: 2060954044}
+  - {fileID: 1924959283}
+  - {fileID: 615871830}
+  - {fileID: 1679528370}
+  - {fileID: 1339621188}
+  - {fileID: 1600727646}
+  - {fileID: 16327012}
+  - {fileID: 1848489363}
+  - {fileID: 7013602}
+  - {fileID: 1725500933}
+  - {fileID: 1465401817}
+  - {fileID: 193585483}
+  - {fileID: 858220679}
+  - {fileID: 990751300}
+  - {fileID: 765478505}
+  - {fileID: 243206162}
+  - {fileID: 226340106}
+  - {fileID: 1433003850}
+  - {fileID: 2070839055}
+  - {fileID: 177483671}
+  - {fileID: 2094895005}
+  - {fileID: 472415478}
+  - {fileID: 107053280}
+  - {fileID: 2068034285}
+  - {fileID: 1721431379}
+  - {fileID: 108320239}
+  - {fileID: 1865181204}
+  - {fileID: 50093645}
+  - {fileID: 134076810}
+  - {fileID: 1619645953}
+  - {fileID: 674063669}
+--- !u!114 &147017195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147017186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff0960ef4ea6e04eac66b4a7fd2189d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RigLayers:
+  - m_Rig: {fileID: 0}
+    m_Active: 1
+  m_Effectors: []
+--- !u!4 &153489003 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6202674016269265790, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &175293552 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8585387905218658219, guid: 79e624e6a8770a946afb866fd94b394b, type: 3}
+  m_PrefabInstance: {fileID: 1592497334}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &177483671 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 537527129099757203, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &187063529
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 981727551533589495, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 0d58c511cea5d4ac7a517ca826da809d, type: 3}
+    - target: {fileID: 1719203089191159478, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1719203089191159478, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1719203089191159478, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -14.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 1719203089191159478, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1719203089191159478, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1719203089191159478, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1719203089191159478, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1719203089191159478, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1719203089191159478, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1719203089191159478, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2010677991904798212, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.084450245
+      objectReference: {fileID: 0}
+    - target: {fileID: 2010677991904798212, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2010677991904798212, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1911335
+      objectReference: {fileID: 0}
+    - target: {fileID: 2010677991904798212, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9674226
+      objectReference: {fileID: 0}
+    - target: {fileID: 2010677991904798212, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.253167
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216381574111812203, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216381574111812203, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216381574111812203, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.208
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216381574111812203, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216381574111812203, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216381574111812203, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779297520900514620, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: followCameraRotation
+      value: 
+      objectReference: {fileID: 891471678}
+    - target: {fileID: 6593235585767471501, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9674226
+      objectReference: {fileID: 0}
+    - target: {fileID: 6593235585767471501, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6593235585767471501, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.253167
+      objectReference: {fileID: 0}
+    - target: {fileID: 6593235585767471501, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6593235585767471501, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 29.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940413909313491724, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.084450245
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940413909313491724, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940413909313491724, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1911335
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940413909313491724, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9674226
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940413909313491724, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940413909313491724, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.253167
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700162876463449179, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: interactInstructions
+      value: 
+      objectReference: {fileID: 1021650720}
+    - target: {fileID: 8246548970099693533, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5779297520900514615, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 147017195}
+    - targetCorrespondingSourceObject: {fileID: 5779297520900514615, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 147017194}
+    - targetCorrespondingSourceObject: {fileID: 4554276839882855155, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1663079160}
+  m_SourcePrefab: {fileID: 100100000, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+--- !u!4 &193585483 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7409257721343191133, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &221271393
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 221271395}
+  - component: {fileID: 221271394}
+  m_Layer: 0
+  m_Name: Scene Data Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &221271394
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221271393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c3d110399f708c46a33a1f10b2ec2fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 221271394}
+    - {fileID: 1060761274}
+    - {fileID: 577504067}
+    - {fileID: 1316344765}
+    - {fileID: 313509896}
+    - {fileID: 175293552}
+    - {fileID: 1909147189}
+    - {fileID: 1025430679}
+    - {fileID: 1672434460}
+    - {fileID: 1401560865}
+    - {fileID: 378873380}
+    - {fileID: 1329536152}
+    - {fileID: 481037253}
+    - {fileID: 1151683564}
+    - {fileID: 1599295798}
+    - {fileID: 307684631}
+    - {fileID: 512768425}
+    - {fileID: 999873372}
+    - {fileID: 1621130590}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _streamingCell
+      Entry: 7
+      Data: VladislavTsurikov.BVH.Scripts.Math.AABB, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SceneDataList
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[VladislavTsurikov.SceneDataSystem.Scripts.SceneData,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.GameObjectCollider,
+        Assembly-CSharp
+    - Name: SceneDataManager
+      Entry: 10
+      Data: 0
+    - Name: SceneObjectTree
+      Entry: 7
+      Data: 2|VladislavTsurikov.ColliderSystem.Scripts.Scene.BVHObjectTree`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: Tree
+      Entry: 7
+      Data: 3|VladislavTsurikov.BVH.Scripts.BVHTree`2[[VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp],[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _root
+      Entry: 7
+      Data: 4|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 6
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: false
+    - Name: _parent
+      Entry: 6
+      Data: 
+    - Name: _children
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 6|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 6
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: false
+    - Name: _parent
+      Entry: 9
+      Data: 4
+    - Name: _children
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 8|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 7
+      Data: 9|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp
+    - Name: Obj
+      Entry: 10
+      Data: 1
+    - Name: Prefab
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: true
+    - Name: _parent
+      Entry: 9
+      Data: 6
+    - Name: _children
+      Entry: 7
+      Data: 10|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3.26000023
+    - Name: 
+      Entry: 4
+      Data: -0.5
+    - Name: 
+      Entry: 4
+      Data: -0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 6.26
+    - Name: 
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 6
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: false
+    - Name: _parent
+      Entry: 9
+      Data: 6
+    - Name: _children
+      Entry: 7
+      Data: 12|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 13|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 7
+      Data: 14|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp
+    - Name: Obj
+      Entry: 10
+      Data: 2
+    - Name: Prefab
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: true
+    - Name: _parent
+      Entry: 9
+      Data: 11
+    - Name: _children
+      Entry: 7
+      Data: 15|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3.26000023
+    - Name: 
+      Entry: 4
+      Data: -0.02000001
+    - Name: 
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 6.26
+    - Name: 
+      Entry: 4
+      Data: 0.98
+    - Name: 
+      Entry: 4
+      Data: 1.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 16|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 6
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: false
+    - Name: _parent
+      Entry: 9
+      Data: 11
+    - Name: _children
+      Entry: 7
+      Data: 17|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 18|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 7
+      Data: 19|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp
+    - Name: Obj
+      Entry: 10
+      Data: 3
+    - Name: Prefab
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: true
+    - Name: _parent
+      Entry: 9
+      Data: 16
+    - Name: _children
+      Entry: 7
+      Data: 20|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3.26000023
+    - Name: 
+      Entry: 4
+      Data: 0.43
+    - Name: 
+      Entry: 4
+      Data: 1.21
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 6.26
+    - Name: 
+      Entry: 4
+      Data: 1.43000007
+    - Name: 
+      Entry: 4
+      Data: 2.21
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 21|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 6
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: false
+    - Name: _parent
+      Entry: 9
+      Data: 16
+    - Name: _children
+      Entry: 7
+      Data: 22|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 23|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 7
+      Data: 24|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp
+    - Name: Obj
+      Entry: 10
+      Data: 4
+    - Name: Prefab
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: true
+    - Name: _parent
+      Entry: 9
+      Data: 21
+    - Name: _children
+      Entry: 7
+      Data: 25|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3.26000023
+    - Name: 
+      Entry: 4
+      Data: 0.89
+    - Name: 
+      Entry: 4
+      Data: 2.05
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 6.26
+    - Name: 
+      Entry: 4
+      Data: 1.89
+    - Name: 
+      Entry: 4
+      Data: 3.05
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 26|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 6
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: false
+    - Name: _parent
+      Entry: 9
+      Data: 21
+    - Name: _children
+      Entry: 7
+      Data: 27|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 28|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 7
+      Data: 29|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp
+    - Name: Obj
+      Entry: 10
+      Data: 5
+    - Name: Prefab
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: true
+    - Name: _parent
+      Entry: 9
+      Data: 26
+    - Name: _children
+      Entry: 7
+      Data: 30|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -7.02223063
+    - Name: 
+      Entry: 4
+      Data: -2.38418579E-07
+    - Name: 
+      Entry: 4
+      Data: 3.85059261
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 7.23823
+    - Name: 
+      Entry: 4
+      Data: 6.98895931
+    - Name: 
+      Entry: 4
+      Data: 14.3519526
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 31|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 7
+      Data: 32|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp
+    - Name: Obj
+      Entry: 10
+      Data: 6
+    - Name: Prefab
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: true
+    - Name: _parent
+      Entry: 9
+      Data: 26
+    - Name: _children
+      Entry: 7
+      Data: 33|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1.69722986
+    - Name: 
+      Entry: 4
+      Data: -8.34465E-07
+    - Name: 
+      Entry: 4
+      Data: 11.0199995
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 8.197474
+    - Name: 
+      Entry: 4
+      Data: 3.70536
+    - Name: 
+      Entry: 4
+      Data: 14.0200014
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -7.02223063
+    - Name: 
+      Entry: 4
+      Data: -8.34465E-07
+    - Name: 
+      Entry: 4
+      Data: 3.85059261
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 8.197474
+    - Name: 
+      Entry: 4
+      Data: 6.98895931
+    - Name: 
+      Entry: 4
+      Data: 14.3519526
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -7.02223063
+    - Name: 
+      Entry: 4
+      Data: -8.34465E-07
+    - Name: 
+      Entry: 4
+      Data: 2.05000019
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 8.197474
+    - Name: 
+      Entry: 4
+      Data: 6.98895931
+    - Name: 
+      Entry: 4
+      Data: 14.3519526
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -7.02223063
+    - Name: 
+      Entry: 4
+      Data: -8.34465E-07
+    - Name: 
+      Entry: 4
+      Data: 1.21
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 8.197474
+    - Name: 
+      Entry: 4
+      Data: 6.98895931
+    - Name: 
+      Entry: 4
+      Data: 14.3519526
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -7.02223063
+    - Name: 
+      Entry: 4
+      Data: -0.01999998
+    - Name: 
+      Entry: 4
+      Data: 0.300000221
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 8.197474
+    - Name: 
+      Entry: 4
+      Data: 6.98895931
+    - Name: 
+      Entry: 4
+      Data: 14.3519526
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -7.02223063
+    - Name: 
+      Entry: 4
+      Data: -0.5
+    - Name: 
+      Entry: 4
+      Data: -0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 8.197474
+    - Name: 
+      Entry: 4
+      Data: 6.98895931
+    - Name: 
+      Entry: 4
+      Data: 14.3519526
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 34|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 6
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: false
+    - Name: _parent
+      Entry: 9
+      Data: 4
+    - Name: _children
+      Entry: 7
+      Data: 35|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 36|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 6
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: false
+    - Name: _parent
+      Entry: 9
+      Data: 34
+    - Name: _children
+      Entry: 7
+      Data: 37|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 38|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 6
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: false
+    - Name: _parent
+      Entry: 9
+      Data: 36
+    - Name: _children
+      Entry: 7
+      Data: 39|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 40|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 6
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: false
+    - Name: _parent
+      Entry: 9
+      Data: 38
+    - Name: _children
+      Entry: 7
+      Data: 41|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 42|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 7
+      Data: 43|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp
+    - Name: Obj
+      Entry: 10
+      Data: 7
+    - Name: Prefab
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: true
+    - Name: _parent
+      Entry: 9
+      Data: 40
+    - Name: _children
+      Entry: 7
+      Data: 44|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.00195027143
+    - Name: 
+      Entry: 4
+      Data: 1.80767918
+    - Name: 
+      Entry: 4
+      Data: -14.856328
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.09996377
+    - Name: 
+      Entry: 4
+      Data: 1.8257277
+    - Name: 
+      Entry: 4
+      Data: -14.7876768
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 45|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 6
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: false
+    - Name: _parent
+      Entry: 9
+      Data: 40
+    - Name: _children
+      Entry: 7
+      Data: 46|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 47|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 7
+      Data: 48|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp
+    - Name: Obj
+      Entry: 10
+      Data: 9
+    - Name: Prefab
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: true
+    - Name: _parent
+      Entry: 9
+      Data: 45
+    - Name: _children
+      Entry: 7
+      Data: 49|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.165708482
+    - Name: 
+      Entry: 4
+      Data: 1.6943059
+    - Name: 
+      Entry: 4
+      Data: -15.0856829
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.177993685
+    - Name: 
+      Entry: 4
+      Data: 1.96246
+    - Name: 
+      Entry: 4
+      Data: -14.7438879
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 50|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 7
+      Data: 51|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp
+    - Name: Obj
+      Entry: 10
+      Data: 10
+    - Name: Prefab
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: true
+    - Name: _parent
+      Entry: 9
+      Data: 45
+    - Name: _children
+      Entry: 7
+      Data: 52|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.0106295347
+    - Name: 
+      Entry: 4
+      Data: 1.80313146
+    - Name: 
+      Entry: 4
+      Data: -14.8780766
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.09016567
+    - Name: 
+      Entry: 4
+      Data: 1.83851731
+    - Name: 
+      Entry: 4
+      Data: -14.8002491
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.165708482
+    - Name: 
+      Entry: 4
+      Data: 1.6943059
+    - Name: 
+      Entry: 4
+      Data: -15.0856829
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.177993685
+    - Name: 
+      Entry: 4
+      Data: 1.96246
+    - Name: 
+      Entry: 4
+      Data: -14.7438879
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.165708482
+    - Name: 
+      Entry: 4
+      Data: 1.6943059
+    - Name: 
+      Entry: 4
+      Data: -15.0856829
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.177993685
+    - Name: 
+      Entry: 4
+      Data: 1.96246
+    - Name: 
+      Entry: 4
+      Data: -14.7438879
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 53|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 6
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: false
+    - Name: _parent
+      Entry: 9
+      Data: 38
+    - Name: _children
+      Entry: 7
+      Data: 54|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 55|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 7
+      Data: 56|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp
+    - Name: Obj
+      Entry: 10
+      Data: 11
+    - Name: Prefab
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: true
+    - Name: _parent
+      Entry: 9
+      Data: 53
+    - Name: _children
+      Entry: 7
+      Data: 57|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.918523
+    - Name: 
+      Entry: 4
+      Data: 0.1163339
+    - Name: 
+      Entry: 4
+      Data: -15.5073738
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.913536966
+    - Name: 
+      Entry: 4
+      Data: 1.94141388
+    - Name: 
+      Entry: 4
+      Data: -14.3140163
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 58|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 6
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: false
+    - Name: _parent
+      Entry: 9
+      Data: 53
+    - Name: _children
+      Entry: 7
+      Data: 59|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 60|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 7
+      Data: 61|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp
+    - Name: Obj
+      Entry: 10
+      Data: 12
+    - Name: Prefab
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: true
+    - Name: _parent
+      Entry: 9
+      Data: 58
+    - Name: _children
+      Entry: 7
+      Data: 62|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 6.18068361
+    - Name: 
+      Entry: 4
+      Data: 1.1920929E-07
+    - Name: 
+      Entry: 4
+      Data: -15.0304775
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 8.683357
+    - Name: 
+      Entry: 4
+      Data: 2.504825
+    - Name: 
+      Entry: 4
+      Data: -9.030476
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 63|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 7
+      Data: 64|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp
+    - Name: Obj
+      Entry: 10
+      Data: 13
+    - Name: Prefab
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: true
+    - Name: _parent
+      Entry: 9
+      Data: 58
+    - Name: _children
+      Entry: 7
+      Data: 65|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.381424934
+    - Name: 
+      Entry: 4
+      Data: 1.00002122
+    - Name: 
+      Entry: 4
+      Data: -15.2370329
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.397523254
+    - Name: 
+      Entry: 4
+      Data: 1.67156529
+    - Name: 
+      Entry: 4
+      Data: -14.6053877
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.381424934
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -15.2370329
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 8.683357
+    - Name: 
+      Entry: 4
+      Data: 2.504825
+    - Name: 
+      Entry: 4
+      Data: -9.030476
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.918523
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -15.5073738
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 8.683357
+    - Name: 
+      Entry: 4
+      Data: 2.504825
+    - Name: 
+      Entry: 4
+      Data: -9.030476
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.918523
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -15.5073738
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 8.683357
+    - Name: 
+      Entry: 4
+      Data: 2.504825
+    - Name: 
+      Entry: 4
+      Data: -9.030476
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 66|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 6
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: false
+    - Name: _parent
+      Entry: 9
+      Data: 36
+    - Name: _children
+      Entry: 7
+      Data: 67|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 68|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 7
+      Data: 69|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp
+    - Name: Obj
+      Entry: 10
+      Data: 14
+    - Name: Prefab
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: true
+    - Name: _parent
+      Entry: 9
+      Data: 66
+    - Name: _children
+      Entry: 7
+      Data: 70|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.192306817
+    - Name: 
+      Entry: 4
+      Data: 0.07003653
+    - Name: 
+      Entry: 4
+      Data: -15.0881138
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.2540838
+    - Name: 
+      Entry: 4
+      Data: 0.221147031
+    - Name: 
+      Entry: 4
+      Data: -14.66156
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 71|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 7
+      Data: 72|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp
+    - Name: Obj
+      Entry: 10
+      Data: 15
+    - Name: Prefab
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: true
+    - Name: _parent
+      Entry: 9
+      Data: 66
+    - Name: _children
+      Entry: 7
+      Data: 73|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.244579986
+    - Name: 
+      Entry: 4
+      Data: 0.517212033
+    - Name: 
+      Entry: 4
+      Data: -15.1396713
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.253163517
+    - Name: 
+      Entry: 4
+      Data: 1.13192534
+    - Name: 
+      Entry: 4
+      Data: -14.6896782
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.244579986
+    - Name: 
+      Entry: 4
+      Data: 0.07003653
+    - Name: 
+      Entry: 4
+      Data: -15.1396713
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.2540838
+    - Name: 
+      Entry: 4
+      Data: 1.13192534
+    - Name: 
+      Entry: 4
+      Data: -14.66156
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -0.918522835
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -15.5073738
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 8.683357
+    - Name: 
+      Entry: 4
+      Data: 2.504825
+    - Name: 
+      Entry: 4
+      Data: -9.030476
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 74|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 6
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: false
+    - Name: _parent
+      Entry: 9
+      Data: 34
+    - Name: _children
+      Entry: 7
+      Data: 75|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 76|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 7
+      Data: 77|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp
+    - Name: Obj
+      Entry: 10
+      Data: 16
+    - Name: Prefab
+      Entry: 10
+      Data: 16
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: true
+    - Name: _parent
+      Entry: 9
+      Data: 74
+    - Name: _children
+      Entry: 7
+      Data: 78|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -14.2151642
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -0.229918778
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -12.2151585
+    - Name: 
+      Entry: 4
+      Data: 1.00059044
+    - Name: 
+      Entry: 4
+      Data: 1.763299
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 79|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 6
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: false
+    - Name: _parent
+      Entry: 9
+      Data: 74
+    - Name: _children
+      Entry: 7
+      Data: 80|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 81|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 7
+      Data: 82|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp
+    - Name: Obj
+      Entry: 10
+      Data: 17
+    - Name: Prefab
+      Entry: 10
+      Data: 17
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: true
+    - Name: _parent
+      Entry: 9
+      Data: 79
+    - Name: _children
+      Entry: 7
+      Data: 83|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 6.01784468
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -3.284607
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 9.505078
+    - Name: 
+      Entry: 4
+      Data: 2.500702
+    - Name: 
+      Entry: 4
+      Data: -1.2817626
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 84|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 7
+      Data: 85|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp
+    - Name: Obj
+      Entry: 10
+      Data: 18
+    - Name: Prefab
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: true
+    - Name: _parent
+      Entry: 9
+      Data: 79
+    - Name: _children
+      Entry: 7
+      Data: 86|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -25
+    - Name: 
+      Entry: 4
+      Data: -5.551115E-16
+    - Name: 
+      Entry: 4
+      Data: -25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 4
+      Data: 5.551115E-16
+    - Name: 
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -25
+    - Name: 
+      Entry: 4
+      Data: -5.551115E-16
+    - Name: 
+      Entry: 4
+      Data: -25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 4
+      Data: 2.500702
+    - Name: 
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -25
+    - Name: 
+      Entry: 4
+      Data: -5.551115E-16
+    - Name: 
+      Entry: 4
+      Data: -25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 4
+      Data: 2.500702
+    - Name: 
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -25
+    - Name: 
+      Entry: 4
+      Data: -5.551115E-16
+    - Name: 
+      Entry: 4
+      Data: -25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 4
+      Data: 2.504825
+    - Name: 
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _min
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -25
+    - Name: 
+      Entry: 4
+      Data: -0.5
+    - Name: 
+      Entry: 4
+      Data: -25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _max
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 4
+      Data: 6.98895931
+    - Name: 
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!4 &221271395
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221271393}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &226340106 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4626478914004143743, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &231296859 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5452466082876412236, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &231562874 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8208018459574186176, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &243206162 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7600905978096503287, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &272424428 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8784917064137937349, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &304595952 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4570633957890612960, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &307684631 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5380851353719932475, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &313509896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 313509900}
+  - component: {fileID: 313509899}
+  - component: {fileID: 313509898}
+  - component: {fileID: 313509897}
+  m_Layer: 0
+  m_Name: Cube (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &313509897
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313509896}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &313509898
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313509896}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &313509899
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313509896}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &313509900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313509896}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.76, y: 1.39, z: 2.55}
+  m_LocalScale: {x: 3, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &320115303 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5269514877594940625, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &343662922 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7311001110983078137, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &363998003 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5478897708319751844, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &376903630 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3918668640552185359, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &378873380 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5445914780184059245, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &409313677 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1361014431823609492, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &410087039
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 410087041}
+  - component: {fileID: 410087040}
+  - component: {fileID: 410087042}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &410087040
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410087039}
+  m_Enabled: 1
+  serializedVersion: 11
+  m_Type: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 2
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 5000
+  m_UseColorTemperature: 1
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
+--- !u!4 &410087041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410087039}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &410087042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410087039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 1
+--- !u!4 &472415478 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3883738940992897171, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &481037253 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1604908963751126680, guid: e5d7b87d422ee0f478ee09eb32e24f4e, type: 3}
+  m_PrefabInstance: {fileID: 1079404917}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &498401717 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2780436295954675776, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &512768425 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1335415992372505392, guid: 466621a4836aa504c87c15d88722d465, type: 3}
+  m_PrefabInstance: {fileID: 2076448084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &577504067
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 577504071}
+  - component: {fileID: 577504070}
+  - component: {fileID: 577504069}
+  - component: {fileID: 577504068}
+  m_Layer: 0
+  m_Name: Cube (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &577504068
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577504067}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &577504069
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577504067}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &577504070
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577504067}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &577504071
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577504067}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.76, y: 0.48, z: 0.8}
+  m_LocalScale: {x: 3, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &615871830 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1027398785082396979, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &667649631 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1625447221158466014, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &674063669 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8670494833019295985, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &714089894 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6360687329431230999, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &720935729 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7306996756571871507, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &765478505 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8789453138015719206, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &822104401 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4226791384203004754, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &832575517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 832575519}
+  - component: {fileID: 832575518}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &832575518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832575517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 10fc4df2da32a41aaa32d77bc913491c, type: 2}
+--- !u!4 &832575519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832575517}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &850808199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 850808202}
+  - component: {fileID: 850808201}
+  - component: {fileID: 850808200}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &850808200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850808199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
+--- !u!114 &850808201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850808199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &850808202
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850808199}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &858220679 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2600836109847123696, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &891471678 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6940413909313491699, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &897082082
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5669941468394053585, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5669941468394053585, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5669941468394053585, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5669941468394053585, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5669941468394053585, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5669941468394053585, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5669941468394053585, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 966
+      objectReference: {fileID: 0}
+    - target: {fileID: 5669941468394053585, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 536
+      objectReference: {fileID: 0}
+    - target: {fileID: 5669941468394053585, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5669941468394053585, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5669941468394053585, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5669941468394053585, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5669941468394053585, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5669941468394053585, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5669941468394053585, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5669941468394053585, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5669941468394053585, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5669941468394053585, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5669941468394053585, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5669941468394053585, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6986326477291155759, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+      propertyPath: m_Name
+      value: InteractableInstruction
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+--- !u!4 &955217153 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5906912290370216621, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &989690373 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9048336248371839667, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &990751300 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5857738512769541561, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &999873372 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3051928965768018776, guid: 7b846d8f536f007498c941069487ce81, type: 3}
+  m_PrefabInstance: {fileID: 22226669}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1009072888 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 529189583318814463, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1021650720 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4973922490096352511, guid: 984957725e74949a49f6a5086c62a7be, type: 3}
+  m_PrefabInstance: {fileID: 897082082}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1025430679 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1704023535827986565, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1041269787 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8487893131092154214, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1060761274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1060761278}
+  - component: {fileID: 1060761277}
+  - component: {fileID: 1060761276}
+  - component: {fileID: 1060761275}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1060761275
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060761274}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1060761276
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060761274}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1060761277
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060761274}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1060761278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060761274}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.76, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1079404917
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1604908963751126680, guid: e5d7b87d422ee0f478ee09eb32e24f4e, type: 3}
+      propertyPath: m_Name
+      value: Tunnel_Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 2093637950428003362, guid: e5d7b87d422ee0f478ee09eb32e24f4e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.4320207
+      objectReference: {fileID: 0}
+    - target: {fileID: 2093637950428003362, guid: e5d7b87d422ee0f478ee09eb32e24f4e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0051865783
+      objectReference: {fileID: 0}
+    - target: {fileID: 2093637950428003362, guid: e5d7b87d422ee0f478ee09eb32e24f4e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.030477
+      objectReference: {fileID: 0}
+    - target: {fileID: 2093637950428003362, guid: e5d7b87d422ee0f478ee09eb32e24f4e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2093637950428003362, guid: e5d7b87d422ee0f478ee09eb32e24f4e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2093637950428003362, guid: e5d7b87d422ee0f478ee09eb32e24f4e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2093637950428003362, guid: e5d7b87d422ee0f478ee09eb32e24f4e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2093637950428003362, guid: e5d7b87d422ee0f478ee09eb32e24f4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2093637950428003362, guid: e5d7b87d422ee0f478ee09eb32e24f4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2093637950428003362, guid: e5d7b87d422ee0f478ee09eb32e24f4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e5d7b87d422ee0f478ee09eb32e24f4e, type: 3}
+--- !u!4 &1094426595 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7397403617813749435, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1101602264 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1848365721673823053, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1151683564 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3802893478451260509, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1316344765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1316344769}
+  - component: {fileID: 1316344768}
+  - component: {fileID: 1316344767}
+  - component: {fileID: 1316344766}
+  m_Layer: 0
+  m_Name: Cube (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1316344766
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316344765}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1316344767
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316344765}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1316344768
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316344765}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1316344769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316344765}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.76, y: 0.93, z: 1.71}
+  m_LocalScale: {x: 3, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1329536152 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2244563036589361811, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1339621188 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5762232210390790647, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1345901422 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5163950865908743619, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1401560865 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3567784215452197651, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1415619632 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4312569021050865894, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1420973937 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 396433526867010839, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1433003850 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1792048490719798702, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1446384514 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 162166027737772232, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1465401817 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1492569343089282483, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1511784738 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5048968940950297491, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1549654018 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1994708387083438693, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1577640293 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1233713575901115569, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1592497334
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8585387905218658219, guid: 79e624e6a8770a946afb866fd94b394b, type: 3}
+      propertyPath: m_Name
+      value: Structure_Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 8966311043270599953, guid: 79e624e6a8770a946afb866fd94b394b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1079998
+      objectReference: {fileID: 0}
+    - target: {fileID: 8966311043270599953, guid: 79e624e6a8770a946afb866fd94b394b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0028302001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8966311043270599953, guid: 79e624e6a8770a946afb866fd94b394b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.10101
+      objectReference: {fileID: 0}
+    - target: {fileID: 8966311043270599953, guid: 79e624e6a8770a946afb866fd94b394b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8966311043270599953, guid: 79e624e6a8770a946afb866fd94b394b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8966311043270599953, guid: 79e624e6a8770a946afb866fd94b394b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8966311043270599953, guid: 79e624e6a8770a946afb866fd94b394b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8966311043270599953, guid: 79e624e6a8770a946afb866fd94b394b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8966311043270599953, guid: 79e624e6a8770a946afb866fd94b394b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8966311043270599953, guid: 79e624e6a8770a946afb866fd94b394b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 79e624e6a8770a946afb866fd94b394b, type: 3}
+--- !u!1 &1599295798 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5013964123733784728, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1600727646 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4292575310962677729, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1612085614 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8018876457474957181, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1619645953 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4579629435906029651, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1621130590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1621130594}
+  - component: {fileID: 1621130593}
+  - component: {fileID: 1621130592}
+  - component: {fileID: 1621130591}
+  m_Layer: 0
+  m_Name: Ground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &1621130591
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621130590}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1621130592
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621130590}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1621130593
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621130590}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1621130594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621130590}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1663079158 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4554276839882855155, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1663079160
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663079158}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1672434460 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8246548970099693533, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1679528370 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2670787723035278608, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1702308797 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6642047196346313092, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1713176632 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5605791716700879672, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1721431379 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3994464957590974666, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1725500933 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 880900482294833121, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1764049380 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5592297273869611753, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1803940785 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 576246412931810231, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1848489363 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7119540366720956933, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1865181204 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3453759203459799939, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1909147189 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7561066613761435406, guid: 50a0925b0c22af146a2d15615f815a1c, type: 3}
+  m_PrefabInstance: {fileID: 2038980855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1924959283 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3775423739471764307, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2007179624 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3779586492103315704, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2038980855
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7561066613761435406, guid: 50a0925b0c22af146a2d15615f815a1c, type: 3}
+      propertyPath: m_Name
+      value: Stairs_650_400_300_Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642225304373351647, guid: 50a0925b0c22af146a2d15615f815a1c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642225304373351647, guid: 50a0925b0c22af146a2d15615f815a1c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8510399
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642225304373351647, guid: 50a0925b0c22af146a2d15615f815a1c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642225304373351647, guid: 50a0925b0c22af146a2d15615f815a1c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642225304373351647, guid: 50a0925b0c22af146a2d15615f815a1c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642225304373351647, guid: 50a0925b0c22af146a2d15615f815a1c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642225304373351647, guid: 50a0925b0c22af146a2d15615f815a1c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642225304373351647, guid: 50a0925b0c22af146a2d15615f815a1c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642225304373351647, guid: 50a0925b0c22af146a2d15615f815a1c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642225304373351647, guid: 50a0925b0c22af146a2d15615f815a1c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 50a0925b0c22af146a2d15615f815a1c, type: 3}
+--- !u!4 &2060954044 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4950049475513758206, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2068034285 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8415261292149491750, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2070839055 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4013164658567841865, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2072385995 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3973191864063201057, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2076448084
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1335415992372505392, guid: 466621a4836aa504c87c15d88722d465, type: 3}
+      propertyPath: m_Name
+      value: Stairs_200x100x200_Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1856478557988811146, guid: 466621a4836aa504c87c15d88722d465, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.215164
+      objectReference: {fileID: 0}
+    - target: {fileID: 1856478557988811146, guid: 466621a4836aa504c87c15d88722d465, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1856478557988811146, guid: 466621a4836aa504c87c15d88722d465, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.7700844
+      objectReference: {fileID: 0}
+    - target: {fileID: 1856478557988811146, guid: 466621a4836aa504c87c15d88722d465, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1856478557988811146, guid: 466621a4836aa504c87c15d88722d465, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1856478557988811146, guid: 466621a4836aa504c87c15d88722d465, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000014603138
+      objectReference: {fileID: 0}
+    - target: {fileID: 1856478557988811146, guid: 466621a4836aa504c87c15d88722d465, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1856478557988811146, guid: 466621a4836aa504c87c15d88722d465, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1856478557988811146, guid: 466621a4836aa504c87c15d88722d465, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1856478557988811146, guid: 466621a4836aa504c87c15d88722d465, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 466621a4836aa504c87c15d88722d465, type: 3}
+--- !u!4 &2094895005 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6735907685078798759, guid: 8661067cbb0624351897dec5a2c68c34, type: 3}
+  m_PrefabInstance: {fileID: 187063529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 410087041}
+  - {fileID: 832575519}
+  - {fileID: 1621130594}
+  - {fileID: 1060761278}
+  - {fileID: 577504071}
+  - {fileID: 1316344769}
+  - {fileID: 313509900}
+  - {fileID: 187063529}
+  - {fileID: 2076448084}
+  - {fileID: 2038980855}
+  - {fileID: 1079404917}
+  - {fileID: 22226669}
+  - {fileID: 1592497334}
+  - {fileID: 221271395}
+  - {fileID: 850808202}
+  - {fileID: 897082082}

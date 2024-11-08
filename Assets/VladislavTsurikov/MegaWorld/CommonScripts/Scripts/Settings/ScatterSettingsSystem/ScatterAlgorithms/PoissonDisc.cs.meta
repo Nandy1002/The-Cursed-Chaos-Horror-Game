@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3d712807f502e8c479599e1817a187eb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/MegaWorld/CommonScripts/Scripts/Settings/ScatterSettingsSystem/ScatterAlgorithms/PoissonDisc.cs
+  uploadId: 552469

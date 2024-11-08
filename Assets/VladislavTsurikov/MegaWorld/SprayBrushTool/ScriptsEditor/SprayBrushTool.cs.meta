@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 13fddeffbaf047745b673f2fde749e84
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/MegaWorld/SprayBrushTool/ScriptsEditor/SprayBrushTool.cs
+  uploadId: 552469

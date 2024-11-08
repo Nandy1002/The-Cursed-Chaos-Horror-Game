@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5af11a2fbcce6e4129d8788a3760e305
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/OdinSerializer/Core/DataReaderWriters/IDataWriter.cs
+  uploadId: 552469

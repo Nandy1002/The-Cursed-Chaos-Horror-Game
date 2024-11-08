@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 30f7c308c1e248149a1632835a3ef51d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/MegaWorld/TextureStamperTool/ScriptsEditor/TextureStamperToolEditor.cs
+  uploadId: 552469

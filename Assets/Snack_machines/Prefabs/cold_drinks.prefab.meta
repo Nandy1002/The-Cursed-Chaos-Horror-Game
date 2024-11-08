@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6767d39ea73197e4dbbde50394138364
+NativeFormatImporter:
+  mainObjectFileID: -1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 3517
+  packageName: Snack Machines
+  packageVersion: 2.0
+  assetPath: Assets/Snack_machines/Prefabs/cold_drinks.prefab
+  uploadId: 603701

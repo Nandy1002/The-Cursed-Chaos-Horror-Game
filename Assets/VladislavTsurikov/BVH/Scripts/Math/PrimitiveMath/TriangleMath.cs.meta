@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8b73c7523a90ac642849c125bae79a85
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/BVH/Scripts/Math/PrimitiveMath/TriangleMath.cs
+  uploadId: 552469

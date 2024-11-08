@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: defb3f3de3209754ab7d13312d9cab74
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/MegaWorld/Core/Scripts/ToolsSystem/WindowToolStack.cs
+  uploadId: 552469

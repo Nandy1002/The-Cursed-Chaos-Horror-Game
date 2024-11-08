@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 102e8eab24e9ecd1bc8c85e06fb0abb1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207301
+  packageName: 'Mega World [Free]'
+  packageVersion: 1.931
+  assetPath: Assets/VladislavTsurikov/OdinSerializer/Core/Serializers/Int32Serializer.cs
+  uploadId: 552469
