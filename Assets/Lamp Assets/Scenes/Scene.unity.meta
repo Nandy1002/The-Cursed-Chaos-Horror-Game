@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 318fd37692b7d024b869449951059251
+timeCreated: 1517857471
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 110960
+  packageName: Lamp Model
+  packageVersion: 1.2
+  assetPath: Assets/Lamp Assets/Scenes/Scene.unity
+  uploadId: 322832

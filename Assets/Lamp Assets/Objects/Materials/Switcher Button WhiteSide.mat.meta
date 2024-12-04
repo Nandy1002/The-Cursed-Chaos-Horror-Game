@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b92ed887f87c85344a069f19978e2654
+timeCreated: 1517857772
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 110960
+  packageName: Lamp Model
+  packageVersion: 1.2
+  assetPath: Assets/Lamp Assets/Objects/Materials/Switcher Button WhiteSide.mat
+  uploadId: 322832
