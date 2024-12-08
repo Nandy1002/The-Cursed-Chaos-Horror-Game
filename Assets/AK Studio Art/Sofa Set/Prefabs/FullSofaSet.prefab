@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5595966909542415
 Transform:
@@ -109,6 +109,10 @@ PrefabInstance:
     - target: {fileID: 8223574301034944884, guid: e6876af8c947f4ba58b2b0cf0bc2e797, type: 3}
       propertyPath: m_Name
       value: SofaSet
+      objectReference: {fileID: 0}
+    - target: {fileID: 8223574301034944884, guid: e6876af8c947f4ba58b2b0cf0bc2e797, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -265,6 +269,10 @@ PrefabInstance:
     - target: {fileID: 8223574301034944884, guid: e6876af8c947f4ba58b2b0cf0bc2e797, type: 3}
       propertyPath: m_Name
       value: SofaSet (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8223574301034944884, guid: e6876af8c947f4ba58b2b0cf0bc2e797, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
