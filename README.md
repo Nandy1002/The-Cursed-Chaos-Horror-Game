@@ -8,7 +8,7 @@
 
 ## VIDEO DEMO
 
-<iframe src="https://drive.google.com/file/d/1ZXEaVKz7Xq0YvS0kz9pE7kFcyj7EwmW5/view?usp=drive_link" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1ZXEaVKz7Xq0YvS0kz9pE7kFcyj7EwmW5/d/view" width="640" height="480" allow="autoplay"></iframe>
 
 <!--
 ## Table of Contents
