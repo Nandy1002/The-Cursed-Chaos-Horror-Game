@@ -7,10 +7,7 @@
 - This game is still in initial stage of developement, will update when further development will be done.
 
 ## VIDEO DEMO
-<video width="320" height="240" controls>
-  <source src="demo1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<iframe src="https://drive.google.com/file/d/1ZXEaVKz7Xq0YvS0kz9pE7kFcyj7EwmW5/view?usp=drive_link" width="640" height="480" allow="autoplay"></iframe>
 
 <!--
 ## Table of Contents
