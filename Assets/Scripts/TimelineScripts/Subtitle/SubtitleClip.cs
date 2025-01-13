@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Playables;
+using TMPro;
 
 public class SubtitleClip : PlayableAsset
 {
@@ -12,4 +13,5 @@ public class SubtitleClip : PlayableAsset
         subtitleBehaviour.subTitleText = subTitleText;
         return playable;
     }
+
 }

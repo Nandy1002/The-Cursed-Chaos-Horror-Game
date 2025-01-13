@@ -7,17 +7,26 @@ public class SubtitleTrackMixer : PlayableBehaviour
     public override void ProcessFrame(Playable playable, FrameData info, object playerData)
     {
         TextMeshProUGUI text = playerData as TextMeshProUGUI;
-        string currentText = "";
-        float currentAlpha = 0f;
-        if(!text){ return;}
-        int inputCount = playable.GetInputCount();
-        for (int i = 0; i < inputCount; i++)
+    if (!text) { return; }
+
+    string clipText = "";
+    float clipTextAlpha = 0f;
+    int inputCount = playable.GetInputCount();
+
+    for (int i = 0; i < inputCount; i++)
+    {
+        float inputWeight = playable.GetInputWeight(i);
+        ScriptPlayable<SubtitleBehaviour> inputPlayable = (ScriptPlayable<SubtitleBehaviour>)playable.GetInput(i);
+        SubtitleBehaviour input = inputPlayable.GetBehaviour();
+
+        if (inputWeight > 0)
         {
-            float inputWeight = playable.GetInputWeight(i);
-            ScriptPlayable<SubtitleBehaviour> inputPlayable = (ScriptPlayable<SubtitleBehaviour>)playable.GetInput(i);
-            SubtitleBehaviour input = inputPlayable.GetBehaviour();
-            currentText = input.subTitleText;
-            currentAlpha = inputWeight;
+            clipText += input.subTitleText + " ";
+            clipTextAlpha += inputWeight;
         }
+    }
+
+    text.text = clipText.Trim();
+    text.color = new Color(1, 1, 1, Mathf.Clamp01(clipTextAlpha));
     }
 }
