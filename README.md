@@ -6,6 +6,9 @@
 - This is my first Indie Game Project which I am going to publish on itch.io
 - This game is still in initial stage of developement, will update when further development will be done.
 
+## VIDEO DEMO
+![Demo Video](demo1.mp4)
+
 <!--
 ## Table of Contents
 
