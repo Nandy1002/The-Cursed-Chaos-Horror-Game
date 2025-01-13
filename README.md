@@ -7,14 +7,8 @@
 - This game is still in initial stage of developement, will update when further development will be done.
 
 ## VIDEO DEMO
-<<<<<<< HEAD
+
 <iframe src="https://drive.google.com/file/d/1ZXEaVKz7Xq0YvS0kz9pE7kFcyj7EwmW5/view?usp=drive_link" width="640" height="480" allow="autoplay"></iframe>
-=======
-
-![Demo Video](https://github.com/user-attachments/assets/0f6a669a-7eda-4150-a2b0-e0a00b7dcfd5)
-
-
->>>>>>> 33226fbac46a435e177fcb92abbe4eae4e266acd
 
 <!--
 ## Table of Contents
