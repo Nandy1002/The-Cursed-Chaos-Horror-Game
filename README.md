@@ -8,7 +8,11 @@
 
 ## VIDEO DEMO
 
-<iframe src="https://drive.google.com/file/d/1ZXEaVKz7Xq0YvS0kz9pE7kFcyj7EwmW5/d/view" width="640" height="480" allow="autoplay"></iframe>
+
+
+https://github.com/user-attachments/assets/42164b91-ef93-4d22-aec5-258d7df781dc
+
+
 
 <!--
 ## Table of Contents
