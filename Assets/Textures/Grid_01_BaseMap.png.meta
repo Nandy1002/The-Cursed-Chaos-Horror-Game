@@ -120,9 +120,8 @@ TextureImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 196526
-  packageName: Starter Assets - ThirdPerson | Updates in new CharacterController
-    package
-  packageVersion: 1.1.5
-  assetPath: Assets/StarterAssets/Environment/Art/Textures/Grid_01_BaseMap.png
-  uploadId: 691128
+  productId: 259814
+  packageName: Ready Player Me Avatar and Character Creator
+  packageVersion: 7.3.1
+  assetPath: Assets/Textures/Grid_01_BaseMap.png
+  uploadId: 704618
