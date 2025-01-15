@@ -11,17 +11,11 @@ public class Task
     }
     public Availability availability;
     public string taskName;
-    public int id;
     public GameObject objective;
 
-    public Task(string taskName, int id, Availability availability)
+    public Task(string taskName, Availability availability)
     {
         this.taskName = taskName;
-        this.id = id;
         this.availability = availability;
-    }
-    public int getTaskId()
-    {
-        return id;
     }
 }
